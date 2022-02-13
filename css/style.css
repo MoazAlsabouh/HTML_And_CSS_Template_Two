@@ -9,7 +9,7 @@
   --main-color: #20bedf;
   --trans-color: rgb(15 116 143 / 70%);
   --trans-background: rgb(0 0 0 / 60%);
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 header {
