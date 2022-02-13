@@ -1148,6 +1148,9 @@ footer .contenar .last span {
   .skil .testimonitals .cominte .text p {
     text-align: left;
   }
+  .pric-after .contenar p {
+    width: 475px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1199,6 +1202,12 @@ footer .contenar .last span {
   }
 }
 
+@media (min-width: 768px) and (max-width: 870px) {
+  .pricing .plans {
+    justify-content: space-evenly;
+  }
+}
+
 @media (max-width: 767px) {
   header .contenar nav .icon {
     display: block;
@@ -1231,8 +1240,8 @@ footer .contenar .last span {
     display: none;
   }
   .services .contenar {
-    width: 350px;
-    padding: 50px 0;
+    width: 100vw;
+    padding: 50px 5px;
   }
   .height {
     margin: auto;
@@ -1244,7 +1253,7 @@ footer .contenar .last span {
     flex-direction: column;
   }
   .services .contenar .ser-content .ser-box {
-    width: 350px;
+    width: 100vw;
     flex-direction: column;
     text-align: center;
   }
@@ -1356,6 +1365,7 @@ footer .contenar .last span {
   }
   .pric-after .contenar form .email {
     padding: 20px 0 20px 40px;
+    width: calc(100% - 115px);
   }
   .pric-after .contenar form .sibmit {
     padding: 20px;
